@@ -1,0 +1,26 @@
+<div class="container">
+  <h1 class="text-center mb-4">Posts</h1>
+  <div class="row">
+    {{#each @model as |post|}}
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm position-relative">
+
+          <div class="card-body">
+            <h5 class="card-title">{{post.title}}</h5>
+            <p class="card-text">{{post.content}}</p>
+            <LinkTo @route="post" @model={{post.id}} class="btn btn-primary">
+              Leia mais
+            </LinkTo>
+            <LinkTo @route="edit-post" @model={{post.id}} class="btn btn-warning">Editar</LinkTo>
+            <button
+              class="btn btn-danger"
+              title="Excluir Post" type="button" {{on "click" (fn this.deletePost post)}}
+            >
+            Excluir
+          </button>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

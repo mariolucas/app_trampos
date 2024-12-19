@@ -1,0 +1,552 @@
+
+
+Processing PostsController#25 (for 127.0.0.1 at 2024-12-19 11:16:27) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:17:40) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 11:18:42) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#26 (for 127.0.0.1 at 2024-12-19 11:25:19) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (9.4ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#25 (for 127.0.0.1 at 2024-12-19 11:35:57) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:39:44) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 21ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:40:30) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:40:46) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 24ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 11:40:49) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.8ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:42:25) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 11:51:44) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.7ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 11:52:23) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (14.7ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 11:52:33) [GET]
+  [4;36;1mPost Load (2.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 38ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 11:53:25) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (8.9ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 12:20:00) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (7.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#24 (for 127.0.0.1 at 2024-12-19 12:24:00) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:01:12) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:01:15) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 20ms (View: 7, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:02:18) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 18ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:02:22) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 42ms (View: 24, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:04:10) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 30ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:08:37) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 65ms (View: 39, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:11:35) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 19ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:11:52) [GET]
+  [4;35;1mPost Load (29.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 80ms (View: 20, DB: 29) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:14:54) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:26:37) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:27:03) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 1068ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:27:43) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 13:29:34) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 15ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#5 (for 127.0.0.1 at 2024-12-19 13:29:47) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (10.3ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#destroy (for 127.0.0.1 at 2024-12-19 14:03:46) [DELETE]
+  Parameters: {"id"=>"25"}
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 25) [0m
+Post ID recebido para exclusão: 25
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Destroy (556.4ms)[0m   [0;1mDELETE FROM `posts` WHERE `id` = 25[0m
+  [4;35;1mSQL (2698.5ms)[0m   [0mCOMMIT[0m
+Completed in 7096ms (View: 1, DB: 3256) | 204 No Content [http://localhost/posts/25]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:07:31) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:13:27) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 11ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:14:49) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 731ms (View: 13, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:16:31) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 10ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:17:56) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 47ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:19:56) [GET]
+  [4;35;1mPost Load (1.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:20:05) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:21:47) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:22:53) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 541ms (View: 10, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:27:23) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 377ms (View: 8, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:28:06) [GET]
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:29:18) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:31:34) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 19ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:32:55) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:33:31) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:37:37) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:38:31) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:39:02) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:39:30) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:41:50) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 14ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:42:01) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:42:10) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:44:56) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 13ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:45:37) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 19ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:45:45) [GET]
+  [4;36;1mPost Load (2.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 18ms (View: 5, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:45:52) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 16ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:46:00) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 24ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:46:27) [GET]
+  [4;35;1mPost Load (1.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 15ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:48:03) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 23ms (View: 5, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:50:06) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 13ms (View: 4, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:50:27) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:50:34) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 14ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:51:49) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:52:54) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 503ms (View: 7, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:54:55) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:59:07) [GET]
+  [4;35;1mPost Load (23.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 95ms (View: 36, DB: 23) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:59:39) [GET]
+  [4;36;1mPost Load (1.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 2, DB: 2) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 14:59:51) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:00:06) [GET]
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 15ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:00:33) [GET]
+  [4;35;1mPost Load (4.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 29ms (View: 14, DB: 4) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:01:08) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:01:51) [GET]
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 458ms (View: 3, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:02:39) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 24ms (View: 4, DB: 1) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2024-12-19 15:04:34) [GET]
+  [4;35;1mPost Load (0.0ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2024-12-19 15:08:34) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Load (0.0ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 25ms (View: 1, DB: 0) | 200 OK [http://localhost/posts/6]
+
+
+Processing PostsController#6 (for 127.0.0.1 at 2024-12-19 15:08:47) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (9.5ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PostsController#6 (for 127.0.0.1 at 2024-12-19 15:14:14) [OPTIONS]
+
+Psych::SyntaxError ((<unknown>): did not find expected node content while parsing a flow node at line 18 column 14):
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  C:/Ruby193/lib/ruby/1.9.1/psych.rb:127:in `load'
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+Rendered rescues/_trace (6.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
