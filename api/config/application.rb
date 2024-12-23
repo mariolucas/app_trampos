@@ -5,8 +5,6 @@ RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
-require File.join(File.dirname(__FILE__), 'application')
-require File.join(File.dirname(__FILE__), '..', 'lib', 'middleware', 'cors_middleware')
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.
@@ -29,7 +27,7 @@ Rails::Initializer.run do |config|
   # Skip frameworks you're not going to use. To use Rails without a database,
   # you must remove the Active Record framework.
   #config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
-  
+
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 
@@ -39,13 +37,12 @@ Rails::Initializer.run do |config|
 
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
-  # config.i18n.default_locale = :de
 
   # Encoding.default_external = Encoding::UTF_8
   # Encoding.default_internal = Encoding::UTF_8
 
+  config.frameworks = [:action_controller, :action_view, :active_record, :active_resource, :action_mailer]
   ActionController::Base.consider_all_requests_local = true
   Mime::Type.register "application/json", :json
-  config.middleware.use CorsMiddleware
-  
+
 end

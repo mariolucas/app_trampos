@@ -5,12 +5,15 @@ require(File.join(File.dirname(__FILE__), 'config', 'boot'))
 
 require 'rake'
 require 'rake/testtask'
-require 'rdoc/task'  # Use 'rdoc/task' em vez de 'rake/rdoctask'
-
+require 'active_record'
+require 'yaml'
+require 'rdoc/task' 
 require 'tasks/rails'
 
-# Se houver código relacionado ao RDocTask, substitua por RDoc::Task
 RDoc::Task.new do |rdoc|
   rdoc.main = 'README'
   rdoc.rdoc_dir = 'doc'
 end
+
+db_config = YAML.load_file('config/database.yml')
+ActiveRecord::Base.establish_connection(db_config[ENV['RAILS_ENV'] || 'development'])

@@ -1,7 +1,10 @@
 import Controller from '@ember/controller';
 import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
 
 export default class EditPostController extends Controller {
+  @service router;
+
   @action
   updateTitle(event) {
     this.model.title = event.target.value;
@@ -16,7 +19,9 @@ export default class EditPostController extends Controller {
   savePost(event) {
     event.preventDefault();
     this.model.save().then(() => {
-      this.transitionToRoute('posts');
+      this.router.transitionTo('posts');
+    }).catch((error) => {
+      console.error('Error saving post:', error);
     });
   }
 

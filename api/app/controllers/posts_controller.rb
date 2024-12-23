@@ -1,7 +1,7 @@
 # encoding: utf-8
 class PostsController < ApplicationController
 
-  before_filter :set_cors_headers
+  before_filter :set_cors_headers, only: [:index, :show, :create, :update, :destroy, :options]
   
   # Exibe todos os posts
   def index
@@ -19,9 +19,9 @@ class PostsController < ApplicationController
   end
 
   def create
-
-    @post = Post.new(post_params)
-  
+    body = JSON.parse(request.body.read) rescue nil
+    @post = Post.new(body['post'])
+    
     if @post.save
       render json: @post, status: :created, location: @post
     else
@@ -30,9 +30,13 @@ class PostsController < ApplicationController
   end
 
   def update
+    body = JSON.parse(request.body.read) rescue nil
+
+    filtered_attributes = body['post'].slice(*Post.column_names.map(&:to_sym)) 
+
     @post = Post.find(params[:id])
-    if @post.update_attributes(params[:post]) 
-      redirect_to @post, notice: 'Post atualizado com sucesso.'
+    if @post.update_attributes(body['post']) 
+      render json: @post, status: :ok
     else
       render :edit
     end
@@ -44,6 +48,11 @@ class PostsController < ApplicationController
     logger.debug "Post ID recebido para exclusão: #{params[:id]}"
     @post.destroy
     head :no_content
+  end
+
+  def options
+    set_cors_headers
+    head :ok
   end
 
   private
@@ -67,6 +76,7 @@ class PostsController < ApplicationController
     headers['Access-Control-Allow-Origin'] = '*'
     headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS'
     headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    headers['Access-Control-Max-Age'] = '1728000'
   end
 
   def post_params
@@ -75,6 +85,5 @@ class PostsController < ApplicationController
       content: params[:post][:content]
     }
   end
-  
-  
+
 end

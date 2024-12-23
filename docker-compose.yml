@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  rails:
+    build:
+      dockerfile: ./api/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./api:/app
+    depends_on:
+      - db
+    environment:
+      DATABASE_HOST: db
+      DATABASE_NAME: app_trampos_db
+      DATABASE_USER: root
+      DATABASE_PASSWORD: 123456
+      RAILS_ENV: development
+    entrypoint: ["bash", "-c", "rake db:create db:migrate; ruby script/server -b '0.0.0.0' -e development"]
+  ember:
+    build:
+      context: ./web
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./web:/web
+      - /web/node_modules
+    stdin_open: true
+    tty: true
+  db:
+    image: mysql:5.7
+    container_name: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: app_trampos_db
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

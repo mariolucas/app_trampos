@@ -41,7 +41,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    // here you can enable a production-spewcific feature
   }
 
   return ENV;
