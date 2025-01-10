@@ -1,6 +1,22 @@
+<LinkTo @route="posts" class="ml-4 mb-2 text-white">
+  <i class="bi bi-arrow-left-short ml-2"></i> Voltar
+</LinkTo>
 <div class="col-12 text-white mb-4">
   <h1 class="pl-3"><i class="bi bi-file-earmark-text"></i> Editar Post</h1>
 </div>
+
+{{#if this.successMessage}}
+  <div class="alert alert-success ml-3 mr-3">
+    {{this.successMessage}}
+  </div>
+{{/if}}
+
+{{#if this.errorMessage}}
+  <div class="alert alert-danger ml-3 mr-3">
+    {{this.errorMessage}}
+  </div>
+{{/if}}
+
 <div class="container d-flex justify-content-center align-items-center">
   <div class="card w-100">
     <div class="card-body">

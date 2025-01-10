@@ -1,6 +1,12 @@
 <div class="container">
-  {{!-- <h1 class="text-center mb-4">Posts</h1> --}}
   <div class="row">
+
+    {{#if this.errorMessage}}
+      <div class="alert alert-danger ml-3 mr-3">
+        {{this.errorMessage}}
+      </div>
+    {{/if}}
+
     {{#each @model as |post|}}
       <div class="col-md-4 mb-4">
         <div class="card shadow-sm position-relative">
@@ -22,7 +28,7 @@
             </LinkTo>
             <button
               class="btn btn-danger"
-              title="Excluir Post" type="button" {{on "click" (fn this.deletePost post)}}
+              title="Excluir Post" type="button" {{on "click" (fn this.openConfirmDeleteModal post)}}
             >
             <i class="bi bi-trash3-fill"></i>
           </button>
@@ -30,5 +36,30 @@
         </div>
       </div>
     {{/each}}
+
+    {{!-- Confirmação delete --}}
+    {{#if this.showModal}}
+      <div class="modal fade show" tabindex="-1" style="display: block; background: rgba(0,0,0,0.5)">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Confirmar Exclusão</h5>
+              <div class="btn-close cursor-pointer" aria-label="Close" {{on "click" this.closeModal}}>
+                <i class="bi bi-x"></i>
+              </div>
+            </div>
+            <div class="modal-body">
+              <p>Tem certeza que deseja excluir este post?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" {{on "click" this.closeModal}}>Cancelar</button>
+              <button type="button" class="btn btn-danger" {{on "click" this.deletePost}}>Excluir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/if}}
+
+
   </div>
 </div>
