@@ -5,7 +5,7 @@ export default class ApplicationAdapter extends RESTAdapter {
   get headers() {
     return {
       'Content-Type': 'application/json',
-      'Accept': 'application/json',
+      Accept: 'application/json',
     };
   }
 }

@@ -7411,3 +7411,3253 @@ Processing PostsController#index (for 172.18.0.1 at 2024-12-23 01:31:38) [GET]
   [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
   [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
 Completed in 35ms (View: 8, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (4.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20241217044206)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 01:32:09) [GET]
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 58ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 01:32:09) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 8, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 01:32:23) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 17, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (11.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (6.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20241217044206)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (7.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20241217044206)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 02:13:54) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 38ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:06:13) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:07:17) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:20:28) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:20:55) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:22:44) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:23:41) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:24:38) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:31:04) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:31:51) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:32:55) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 64ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:32:56) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-09 03:33:31) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (9.1ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Post ID recebido para exclusão: 3
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Destroy (3.4ms)[0m   [0mDELETE FROM `posts` WHERE `id` = 3[0m
+  [4;36;1mSQL (11.2ms)[0m   [0;1mCOMMIT[0m
+Completed in 69ms (View: 8, DB: 25) | 204 No Content [http://localhost/posts/3]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-09 03:33:32) [DELETE]
+  Parameters: {"id"=>"4"}
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 4) [0m
+Post ID recebido para exclusão: 4
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Destroy (0.3ms)[0m   [0;1mDELETE FROM `posts` WHERE `id` = 4[0m
+  [4;35;1mSQL (7.9ms)[0m   [0mCOMMIT[0m
+Completed in 35ms (View: 6, DB: 9) | 204 No Content [http://localhost/posts/4]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-09 03:33:34) [DELETE]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 5) [0m
+Post ID recebido para exclusão: 5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Destroy (2.2ms)[0m   [0mDELETE FROM `posts` WHERE `id` = 5[0m
+  [4;36;1mSQL (16.1ms)[0m   [0;1mCOMMIT[0m
+Completed in 46ms (View: 6, DB: 20) | 204 No Content [http://localhost/posts/5]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:33:55) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 29ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:34:04) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:35:36) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:35:38) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 113ms (View: 23, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:36:58) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 38ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:37:36) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:43:04) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 22ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:43:21) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 106ms (View: 13, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:45:18) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:46:04) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 40ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:46:11) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 40ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:47:06) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 35ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:48:51) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:51:25) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:54:19) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:55:15) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:56:41) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 50ms (View: 22, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:58:19) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 28ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 03:59:35) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:01:06) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 24ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:01:14) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 31ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:03:09) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:08:23) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 52ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:08:28) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 33ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:08:46) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 34ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:09:00) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 39ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:09:52) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 38ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:11:45) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:15:09) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+Completed in 27ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:18:10) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Completed in 33ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-09 04:35:39) [POST]
+  [4;35;1mPost Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (1.9ms)[0m   [0mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES('Ut vel ex mattis, aliquet massa sed, rut', 'Curabitur posuere neque ante, sed aliquam purus efficitur id. Nullam eu cursus dui, aliquam tristique est. In vel rhoncus elit. Vivamus varius ante in massa posuere, sed eleifend nisi hendrerit. Sed vel dignissim felis. Aliquam eget ligula volutpat, congue elit at, luctus leo. Ut sed laoreet diam. Nam nec justo varius, ornare est vel, pellentesque lacus.', '2025-01-09 04:35:39', '2025-01-09 04:35:39', '2025-01-09 04:35:39')[0m
+  [4;36;1mSQL (16.4ms)[0m   [0;1mCOMMIT[0m
+Completed in 54ms (View: 7, DB: 20) | 201 Created [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:35:39) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:42:01) [GET]
+  [4;35;1mPost Load (0.6ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:45:06) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:46:05) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:49:00) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:55:23) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 04:57:31) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:00:09) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 46ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:00:23) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 43ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:01:07) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 51ms (View: 13, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:01:25) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:02:04) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 63ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:02:46) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 56ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:04:05) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 05:04:08) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:04:09) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:06:20) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 38ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:07:18) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 52ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:08:52) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:08:56) [GET]
+  [4;35;1mPost Load (0.7ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 57ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:09:53) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 12, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:23:43) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 05:23:53) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:23:55) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:24:58) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 65ms (View: 11, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:25:05) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:25:26) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 05:25:27) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 26ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/6]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:25:32) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 05:25:46) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:25:55) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:27:57) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 44ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:34:12) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-09 05:34:56) [POST]
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (0.3ms)[0m   [0mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES(' purus. Nunc viverra tortor sed nibh sagittis porttitor. In ', 'Curabitur posuere neque ante, sed aliquam purus efficitur id. Nullam eu cursus dui, aliquam tristique est. In vel rhoncus elit. Vivamus varius ante in massa posuere, sed eleifend nisi hendrerit. Sed vel dignissim felis. Aliquam eget ligula volutpat, congue elit at, luctus leo. Ut sed laoreet diam. Nam nec justo varius, ornare est vel, pellentesque lacus.', '2025-01-09 05:34:56', '2025-01-09 05:34:56', '2025-01-09 05:34:56')[0m
+  [4;36;1mSQL (10.5ms)[0m   [0;1mCOMMIT[0m
+Completed in 51ms (View: 7, DB: 12) | 201 Created [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 05:34:56) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (9.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20241217044206)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 12:28:25) [GET]
+  [4;36;1mPost Load (1.8ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 66ms (View: 10, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 12:32:09) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 38ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 12:37:29) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 69ms (View: 27, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 12:40:48) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 12:41:00) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 61ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:07:15) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 14, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:08:21) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:09:11) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:10:21) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 68ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:10:54) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:11:18) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:12:48) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:13:32) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:14:58) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:15:53) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:16:17) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:17:01) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:17:26) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:17:37) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:19:03) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 11, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:21:01) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 80ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:28:20) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:28:27) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 12, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:30:19) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 18, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:31:51) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:31:57) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:32:11) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:32:38) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:32:59) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 43ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:33:44) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 50ms (View: 13, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:39:11) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 5, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:42:47) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:43:54) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:44:13) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:44:32) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:44:50) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:44:54) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:44:58) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:45:00) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (8.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 45ms (View: 8, DB: 9) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:45:08) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:45:09) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:45:25) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:45:51) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:45:55) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 33ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:46:00) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:47:00) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:47:04) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:47:08) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:47:31) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:47:51) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 28ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:49:30) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:50:17) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 42ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:52:57) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 44ms (View: 8, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:53:01) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 73ms (View: 11, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:54:01) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 27ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-09 13:54:50) [POST]
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (3.6ms)[0m   [0;1mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES('Lorem ipsum dolor sit amet, consectetur adipiscing elit. ', 'Integer mollis nibh non lorem cursus imperdiet. Aliquam semper consequat eros, a lacinia magna vehicula vel. Morbi vestibulum diam faucibus ex placerat efficitur. Mauris enim lorem, egestas sed facilisis vitae, semper ut erat. Curabitur pellentesque odio vitae sapien vulputate, et aliquet orci efficitur. Nulla fringilla lacus turpis, a mollis est aliquam ullamcorper. Praesent accumsan ipsum porttitor vestibulum facilisis. Ut eros elit, volutpat at ex eu, finibus gravida magna.\n\nAliquam sed auctor sem. Curabitur in aliquet diam. Sed eu tincidunt lectus, eget congue tortor. Quisque dapibus orci nec interdum pharetra. Mauris metus lacus, varius sit amet sodales non, pharetra in odio. Aliquam accumsan sem quis gravida tempor. Maecenas rhoncus aliquam accumsan. Morbi imperdiet ac risus aliquet feugiat. Vivamus a lorem eu risus molestie semper vel nec nulla. Ut nec quam a lorem fermentum iaculis sit amet ut ipsum. Nulla vehicula erat id purus cursus, nec condimentum nunc vulputate. Fusce fringilla erat id eros posuere rhoncus. Fusce mollis purus non enim sodales dignissim.', '2025-01-09 13:54:50', '2025-01-09 13:54:50', '2025-01-09 13:54:50')[0m
+  [4;35;1mSQL (13.1ms)[0m   [0mCOMMIT[0m
+Completed in 65ms (View: 11, DB: 18) | 201 Created [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:54:50) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:54:52) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 13:54:56) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:54:59) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 40ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:55:52) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 28ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:55:59) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 28ms (View: 5, DB: 2) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:56:47) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 30ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 13:56:56) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 31ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:03:28) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:06:18) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:07:49) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 28ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:09:05) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:09:11) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:09:46) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:09:50) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:09:53) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:14:00) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:14:23) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:14:28) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:14:38) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:15:28) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:19:10) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 38ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:21:04) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 6, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:21:06) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:29:35) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:29:56) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:30:25) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:32:01) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:32:15) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 60ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:34:27) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:36:36) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 59ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:36:50) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:36:58) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 34ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:37:00) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 14:37:01) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:37:05) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:37:44) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:38:03) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:41:43) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:43:03) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:43:14) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:46:54) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 50ms (View: 13, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:47:00) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:47:03) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-09 14:47:53) [POST]
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES('In sit amet eleifend purus, eget semper neque. Ut rhoncus, lacus a finibus vestibulum', 'Integer mollis nibh non lorem cursus imperdiet. Aliquam semper consequat eros, a lacinia magna vehicula vel. Morbi vestibulum diam faucibus ex placerat efficitur. Mauris enim lorem, egestas sed facilisis vitae, semper ut erat. Curabitur pellentesque odio vitae sapien vulputate, et aliquet orci efficitur. Nulla fringilla lacus turpis, a mollis est aliquam ullamcorper. Praesent accumsan ipsum porttitor vestibulum facilisis. Ut eros elit, volutpat at ex eu, finibus gravida magna. Integer at turpis nec purus ullamcorper egestas. In sit amet eleifend purus, eget semper neque. Ut rhoncus, lacus a finibus vestibulum, libero neque venenatis sapien, et posuere mi orci at dolor. Morbi quis risus est. Sed fringilla semper justo. Pellentesque eros mi, ultrices nec odio vel, pharetra convallis libero. Phasellus dictum vitae mi eget dignissim. Vestibulum eros neque, porta quis malesuada sit amet, mattis vel leo.\n\nAliquam sed auctor sem. Curabitur in aliquet diam. Sed eu tincidunt lectus, eget congue tortor. Quisque dapibus orci nec interdum pharetra. Mauris metus lacus, varius sit amet sodales non, pharetra in odio. Aliquam accumsan sem quis gravida tempor. Maecenas rhoncus aliquam accumsan. Morbi imperdiet ac risus aliquet feugiat. Vivamus a lorem eu risus molestie semper vel nec nulla. Ut nec quam a lorem fermentum iaculis sit amet ut ipsum. Nulla vehicula erat id purus cursus, nec condimentum nunc vulputate. Fusce fringilla erat id eros posuere rhoncus. Fusce mollis purus non enim sodales dignissim.\n\nPhasellus molestie magna vel rhoncus consectetur. Proin in enim neque. Donec ac fermentum ipsum. Sed sit amet condimentum sapien, ut euismod ligula. Mauris at vestibulum diam, vitae eleifend sem. Donec ullamcorper lorem quis blandit rhoncus. Nam sagittis erat in aliquam egestas. Vivamus mollis arcu consectetur iaculis maximus. Nullam tempor pulvinar ante, vitae laoreet eros luctus eu.\n\nNullam lacinia tempus libero et molestie. Phasellus fermentum sem in urna condimentum, et accumsan lectus blandit. Suspendisse aliquet risus lorem. Donec scelerisque vel nunc bibendum aliquam. Morbi fringilla erat sed magna molestie ullamcorper. Morbi nec placerat ante. Etiam et purus eu leo blandit dapibus a et nunc. Aliquam mollis congue urna. Duis posuere posuere ullamcorper. Integer interdum diam ligula, et consectetur elit ultricies ac. Sed sed dolor ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt eros non tempus fringilla.', '2025-01-09 14:47:53', '2025-01-09 14:47:53', '2025-01-09 14:47:53')[0m
+  [4;35;1mSQL (2252.3ms)[0m   [0mCOMMIT[0m
+Completed in 2317ms (View: 42, DB: 2254) | 201 Created [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:47:55) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (9844.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 9873ms (View: 9, DB: 9845) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:48:56) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:49:54) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 14:50:07) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:03:14) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:04:59) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 67ms (View: 21, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:09:58) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:10:03) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:10:06) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 13, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:13:18) [GET]
+  [4;36;1mPost Load (1.0ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 78ms (View: 12, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:50:38) [GET]
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:50:55) [GET]
+  [4;36;1mPost Load (8.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 63ms (View: 13, DB: 11) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:51:55) [GET]
+  [4;36;1mPost Load (3.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 7, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:53:26) [GET]
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:54:12) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 43ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:54:43) [GET]
+  [4;36;1mPost Load (2.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 6, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:54:55) [GET]
+  [4;36;1mPost Load (1.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 15:55:49) [GET]
+  [4;36;1mPost Load (36.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 85ms (View: 10, DB: 37) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:02:40) [GET]
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:03:28) [GET]
+  [4;36;1mPost Load (1.2ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:04:40) [GET]
+  [4;36;1mPost Load (1.1ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:06:02) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:08:00) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:08:23) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:09:46) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:10:12) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:10:31) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:10:51) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:10:59) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:12:03) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:13:10) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:13:51) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:16:05) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:16:38) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:17:19) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 66ms (View: 15, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:18:07) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 44ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:18:46) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:20:01) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:20:24) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:20:32) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 17, DB: 12) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:21:17) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (454.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:22:58) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 6, DB: 455) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:26:11) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:26:44) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 14, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:27:34) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:28:39) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (386.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 446ms (View: 33, DB: 389) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:29:53) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:30:05) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 16:30:08) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (2.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 31ms (View: 7, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:30:13) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:32:08) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:33:07) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 40ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:37:48) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 16:37:50) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 33ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 16:37:57) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 34ms (View: 9, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:38:09) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:38:28) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:46:59) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 16:47:00) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 16:47:23) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 31ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:47:42) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:47:44) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:48:03) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 47ms (View: 14, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:48:06) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 44ms (View: 12, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:48:07) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 10, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:49:53) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:50:04) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 11, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:50:27) [GET]
+  [4;36;1mPost Load (0.7ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 56ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:50:28) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 44ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (894.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:53:04) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 5, DB: 895) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:53:08) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:54:07) [GET]
+  [4;36;1mPost Load (279.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 482ms (View: 21, DB: 281) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:54:17) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:55:01) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 17, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:55:02) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:56:23) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 12, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:56:24) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:58:14) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 57ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 16:58:15) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:00:07) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:00:07) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (5.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 8, DB: 6) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:01:04) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:01:15) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:02:55) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 71ms (View: 21, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:02:56) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 46ms (View: 12, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (352.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (242.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:04:12) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 39ms (View: 8, DB: 243) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:04:34) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (1.9ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 48ms (View: 10, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:04:34) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 50ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:05:38) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 29ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:06:08) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (3.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 43ms (View: 9, DB: 5) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:06:09) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:08:17) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:08:49) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:08:52) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-09 17:08:53) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 35ms (View: 10, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-09 17:09:05) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:08:25) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:08:26) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 37ms (View: 8, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:08:38) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 60ms (View: 23, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:08:39) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 28ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:09:31) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 33ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:09:32) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 34ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:11:29) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:11:30) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 36ms (View: 10, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:11:35) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 48ms (View: 9, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:11:36) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 38ms (View: 11, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:11:41) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 29ms (View: 5, DB: 2) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:11:44) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 24ms (View: 5, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:11:45) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 25ms (View: 5, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:12:50) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 111ms (View: 15, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:12:52) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 46ms (View: 9, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:12:53) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 32ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:13:20) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 8, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:13:21) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 29ms (View: 6, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1051.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:13:28) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 25ms (View: 5, DB: 1052) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:13:29) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 7, DB: 4) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:13:31) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 30ms (View: 6, DB: 3) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (408.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:13:34) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 8, DB: 409) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2355.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:13:37) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 34ms (View: 7, DB: 2357) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1060.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:13:39) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 50ms (View: 9, DB: 1062) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1042.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1008.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:13:43) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 28ms (View: 6, DB: 1010) | 200 OK [http://localhost/posts/8]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1245.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:13:52) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 6, DB: 1247) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (890.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:14:02) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 30ms (View: 7, DB: 891) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3384.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:14:11) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 6, DB: 3386) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 01:14:29) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 12, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 01:14:30) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 25ms (View: 5, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:23:44) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 8, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:23:45) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 37ms (View: 9, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:23:48) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 43ms (View: 11, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:23:49) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 32ms (View: 8, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:23:55) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 29ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1058.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:24:02) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 9, DB: 1060) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:25:16) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 44ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:25:17) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 31ms (View: 6, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:27:00) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 57ms (View: 16, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:27:01) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 36ms (View: 7, DB: 3) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 02:30:02) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 46ms (View: 13, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 02:30:03) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 33ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (9.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePosts (20241217044206)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `posts`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 11:45:02) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 54ms (View: 9, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:02:09) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:09:07) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:09:12) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:12:09) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:12:57) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:33:57) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:34:36) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:34:38) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (4029.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 4072ms (View: 9, DB: 4030) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:34:42) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:35:18) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:36:42) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 36ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:36:46) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 49ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:36:48) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:40:44) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 39ms (View: 10, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:41:01) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:41:04) [GET]
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 41ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:45:37) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:46:20) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 45ms (View: 12, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:46:23) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:46:40) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.3ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 42ms (View: 11, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:46:50) [GET]
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 34ms (View: 7, DB: 2) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:48:24) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:49:00) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:49:03) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 35ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:49:05) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:49:06) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 9) [0m
+Completed in 42ms (View: 8, DB: 1) | 200 OK [http://localhost/posts/9]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:49:11) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:49:13) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Completed in 33ms (View: 9, DB: 1) | 200 OK [http://localhost/posts/6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:49:16) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 26ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-10 12:49:19) [DELETE]
+  Parameters: {"id"=>"6"}
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 6) [0m
+Post ID recebido para exclusão: 6
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Destroy (2.8ms)[0m   [0mDELETE FROM `posts` WHERE `id` = 6[0m
+  [4;36;1mSQL (10.5ms)[0m   [0;1mCOMMIT[0m
+Completed in 50ms (View: 6, DB: 14) | 204 No Content [http://localhost/posts/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-10 12:49:41) [POST]
+  [4;35;1mPost Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (1137.6ms)[0m   [0mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES('Donec elit lacus, consectetur vitae aliquam in, ', ' Nam consectetur nulla ut justo suscipit, eget blandit dui placerat. Nam sodales tellus nunc, et cursus nisi varius nec. Donec porttitor pulvinar metus, sed semper felis convallis at. Cras placerat vestibulum commodo. Nunc malesuada quam leo, quis commodo nunc fringilla luctus. Nunc eu ante vitae nibh fringilla bibendum. Praesent congue id nisl nec blandit. Aenean porttitor, ante ac ullamcorper ullamcorper, ligula diam blandit lectus, et posuere lectus enim id massa. Donec nunc quam, lacinia eget volutpat tempor, dapibus in massa. Phasellus sed augue leo. Sed a congue ex, in tincidunt lorem. In scelerisque leo ante, sed blandit ante euismod nec.\n\nEtiam at leo convallis, condimentum odio non, gravida odio. Pellentesque nec erat nibh. Fusce pharetra, nulla et imperdiet feugiat, enim leo volutpat risus, egestas pellentesque sapien nisl a urna. Suspendisse viverra felis sit amet scelerisque consequat. Cras mattis mauris sed velit tempor finibus ac eget lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec porttitor est. Aliquam eget tincidunt ex. Suspendisse convallis ullamcorper consectetur. Etiam malesuada volutpat velit ut pulvinar. Aliquam iaculis nulla ipsum. Donec sed lorem iaculis, pretium neque sed, laoreet nulla. Donec malesuada felis ut nunc dictum, nec ornare lacus posuere.\n\nAliquam lobortis ex in augue tristique, quis eleifend nibh lacinia. Sed malesuada, mauris sed feugiat egestas, tellus metus posuere eros, ac posuere nisl lorem vitae lacus. Curabitur quis orci ultricies, finibus libero id, molestie quam. Fusce sit amet consectetur neque, in fringilla velit. Pellentesque non porttitor eros. Nunc consectetur metus est, sed efficitur enim vehicula ac. Nunc facilisis pulvinar purus id fringilla. Cras ante mauris, placerat non magna nec, suscipit tempus libero. Nullam vel volutpat erat. Morbi accumsan rutrum augue vitae tempus. Duis in tortor eu purus accumsan suscipit a at nibh. Quisque et pulvinar magna, eget porttitor urna. ', '2025-01-10 12:49:41', '2025-01-10 12:49:41', '2025-01-10 12:49:41')[0m
+  [4;36;1mSQL (8770.8ms)[0m   [0;1mCOMMIT[0m
+Completed in 9951ms (View: 12, DB: 9910) | 201 Created [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 172.18.0.1 at 2025-01-10 12:49:51) [POST]
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (4688.0ms)[0m   [0mINSERT INTO `posts` (`title`, `content`, `published_at`, `created_at`, `updated_at`) VALUES('Donec elit lacus, consectetur vitae aliquam in, ', ' Nam consectetur nulla ut justo suscipit, eget blandit dui placerat. Nam sodales tellus nunc, et cursus nisi varius nec. Donec porttitor pulvinar metus, sed semper felis convallis at. Cras placerat vestibulum commodo. Nunc malesuada quam leo, quis commodo nunc fringilla luctus. Nunc eu ante vitae nibh fringilla bibendum. Praesent congue id nisl nec blandit. Aenean porttitor, ante ac ullamcorper ullamcorper, ligula diam blandit lectus, et posuere lectus enim id massa. Donec nunc quam, lacinia eget volutpat tempor, dapibus in massa. Phasellus sed augue leo. Sed a congue ex, in tincidunt lorem. In scelerisque leo ante, sed blandit ante euismod nec.\n\nEtiam at leo convallis, condimentum odio non, gravida odio. Pellentesque nec erat nibh. Fusce pharetra, nulla et imperdiet feugiat, enim leo volutpat risus, egestas pellentesque sapien nisl a urna. Suspendisse viverra felis sit amet scelerisque consequat. Cras mattis mauris sed velit tempor finibus ac eget lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec porttitor est. Aliquam eget tincidunt ex. Suspendisse convallis ullamcorper consectetur. Etiam malesuada volutpat velit ut pulvinar. Aliquam iaculis nulla ipsum. Donec sed lorem iaculis, pretium neque sed, laoreet nulla. Donec malesuada felis ut nunc dictum, nec ornare lacus posuere.\n\nAliquam lobortis ex in augue tristique, quis eleifend nibh lacinia. Sed malesuada, mauris sed feugiat egestas, tellus metus posuere eros, ac posuere nisl lorem vitae lacus. Curabitur quis orci ultricies, finibus libero id, molestie quam. Fusce sit amet consectetur neque, in fringilla velit. Pellentesque non porttitor eros. Nunc consectetur metus est, sed efficitur enim vehicula ac. Nunc facilisis pulvinar purus id fringilla. Cras ante mauris, placerat non magna nec, suscipit tempus libero. Nullam vel volutpat erat. Morbi accumsan rutrum augue vitae tempus. Duis in tortor eu purus accumsan suscipit a at nibh. Quisque et pulvinar magna, eget porttitor urna. ', '2025-01-10 12:49:51', '2025-01-10 12:49:51', '2025-01-10 12:49:51')[0m
+  [4;36;1mSQL (1060.7ms)[0m   [0;1mCOMMIT[0m
+Completed in 5817ms (View: 11, DB: 5750) | 201 Created [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:49:57) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (3578.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 3628ms (View: 21, DB: 3579) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-10 12:50:00) [DELETE]
+  Parameters: {"id"=>"11"}
+  [4;35;1mPost Columns (0.5ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 11) [0m
+Post ID recebido para exclusão: 11
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Destroy (4.1ms)[0m   [0;1mDELETE FROM `posts` WHERE `id` = 11[0m
+  [4;35;1mSQL (2200.5ms)[0m   [0mCOMMIT[0m
+Completed in 2234ms (View: 7, DB: 2206) | 204 No Content [http://localhost/posts/11]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:50:50) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Completed in 39ms (View: 10, DB: 1) | 200 OK [http://localhost/posts/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:50:52) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 37ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:50:53) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mPost Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 10) [0m
+Completed in 35ms (View: 7, DB: 1) | 200 OK [http://localhost/posts/10]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:50:57) [GET]
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` [0m
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#destroy (for 172.18.0.1 at 2025-01-10 12:51:01) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 7) [0m
+Post ID recebido para exclusão: 7
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Destroy (0.2ms)[0m   [0mDELETE FROM `posts` WHERE `id` = 7[0m
+  [4;36;1mSQL (1872.5ms)[0m   [0;1mCOMMIT[0m
+Completed in 1935ms (View: 26, DB: 1874) | 204 No Content [http://localhost/posts/7]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:51:11) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Columns (0.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 37ms (View: 16, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:51:11) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:51:13) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:51:25) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 37ms (View: 6, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:51:31) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 35ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 172.18.0.1 at 2025-01-10 12:51:33) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mPost Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 8) [0m
+Completed in 33ms (View: 5, DB: 1) | 200 OK [http://localhost/posts/8]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:51:35) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:51:49) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 60ms (View: 12, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:52:20) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:09) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 27ms (View: 8, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:19) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 31ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:28) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:34) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:39) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 29ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:54:45) [GET]
+  [4;35;1mPost Load (0.3ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:55:03) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.5ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 36ms (View: 8, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 172.18.0.1 at 2025-01-10 12:55:05) [GET]
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` [0m
+  [4;36;1mPost Columns (0.4ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Completed in 28ms (View: 6, DB: 1) | 200 OK [http://localhost/posts]

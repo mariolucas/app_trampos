@@ -9,10 +9,10 @@ WORKDIR /web
 
 # Instale dependências ao montar o volume
 COPY package.json package-lock.json /web/
-RUN npm install
+# RUN npm install
 
 # Exponha a porta padrão do Ember.js
 EXPOSE 4200
 
 # Comando para iniciar o servidor Ember.js
-CMD ["ember", "serve", "--host", "0.0.0.0"]
+# CMD ["ember", "serve", "--host", "0.0.0.0"]

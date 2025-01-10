@@ -16,17 +16,18 @@ services:
       DATABASE_USER: root
       DATABASE_PASSWORD: 123456
       RAILS_ENV: development
-    entrypoint: ["bash", "-c", "rake db:create db:migrate; ruby script/server -b '0.0.0.0' -e development"]
-  ember:
-    build:
-      context: ./web
-    ports:
-      - "4200:4200"
-    volumes:
-      - ./web:/web
-      - /web/node_modules
-    stdin_open: true
-    tty: true
+    command: bash -c "rake db:create db:migrate; ruby script/server -b '0.0.0.0' -e development"
+  # ember:
+  #   build:
+  #     context: ./web
+  #   ports:
+  #     - "4200:4200"
+  #     - "49152:49152"
+  #   volumes:
+  #     - ./web:/web
+  #   command: bash -c "ember serve --host 0.0.0.0"
+  #   stdin_open: true
+  #   tty: true
   db:
     image: mysql:5.7
     container_name: mysql

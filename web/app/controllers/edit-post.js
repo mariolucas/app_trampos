@@ -18,11 +18,13 @@ export default class EditPostController extends Controller {
   @action
   savePost(event) {
     event.preventDefault();
-    this.model.save().then(() => {
-      this.router.transitionTo('posts');
-    }).catch((error) => {
-      console.error('Error saving post:', error);
-    });
+    this.model
+      .save()
+      .then(() => {
+        this.router.transitionTo('posts');
+      })
+      .catch((error) => {
+        console.error('Error saving post:', error);
+      });
   }
-
 }

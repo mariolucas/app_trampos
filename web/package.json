@@ -22,7 +22,9 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "build:webpack": "webpack --mode production",
+    "start:webpack": "webpack serve --mode development"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -70,12 +72,20 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-prettier": "^4.1.0",
     "tracked-built-ins": "^3.3.0",
-    "webpack": "^5.96.1"
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-merge": "^6.0.1"
   },
   "engines": {
     "node": ">= 18"
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "date-fns": "^4.1.0",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
   }
 }

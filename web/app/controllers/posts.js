@@ -16,6 +16,5 @@ export default class PostsController extends Controller {
   }
 
   @action
-  async editPost(post) {
-  }
+  async editPost(post) {}
 }
